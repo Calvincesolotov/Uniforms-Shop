@@ -6,11 +6,13 @@ body {
     color: white;
 }
 
+
+
 .login-detail {
     float: inline-end;
-    position: relative;
-    top: 0px;
-    right: 0px;
+    position: relative
+    flex: auto;
+    flex-wrap: wrap;
     
     
 }
@@ -30,19 +32,40 @@ body {
    
 }
 
+.image-row::after {
+    content: "";
+  clear: both;
+  display:list-item;
+}
+
 .column {
     float: left;
     padding: 0.0005%;
     height: auto;
     width: 25%;
     flex-wrap: wrap;
-
-    .text-details {
-        text-align: justify;
-        display: block;
-        width: 25%;
-        margin: 0 auto;
-        align-items: center;
-        }
+    margin: auto;
+   
+    
 }
+
+.text-details {
+    display: block;
+    text-align: justify;
+    width:25%;
+
+}
+
+#social-menu ul{
+    list-style: none;
+    text-align: center;
+    color: yellow;
+  }
+
+  #social-menu li{
+    display: inline;
+    margin: 10px;
+  }
+
+
 
