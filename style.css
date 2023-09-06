@@ -1,0 +1,48 @@
+body {
+    background-color: chocolate;
+}
+
+.details {
+    color: white;
+}
+
+.login-detail {
+    float: inline-end;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    
+    
+}
+
+.textarea {
+    float: left;
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.column {
+    float: left;
+    padding: 0.0005%;
+    height: auto;
+    width: 25%;
+    flex-wrap: wrap;
+
+    .text-details {
+        text-align: justify;
+        display: block;
+        width: 25%;
+        margin: 0 auto;
+        align-items: center;
+        }
+}
+
