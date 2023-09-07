@@ -17,6 +17,13 @@ body {
     
 }
 
+#tube-vid {
+    float: left;
+    top:0%;
+    position: absolute;
+    right: 20%;
+
+}
 .textarea {
     float: left;
     position: relative;
@@ -40,9 +47,9 @@ body {
 
 .column {
     float: left;
-    padding: 0.0005%;
+    padding: 0.000%;
     height: auto;
-    width: 25%;
+    width: auto;
     flex-wrap: wrap;
     margin: auto;
    
