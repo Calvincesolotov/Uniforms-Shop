@@ -6,6 +6,11 @@ body {
     color: white;
 }
 
+#heading1 {
+    flex: auto;
+    flex-wrap: wrap;
+}
+
 
 
 .login-detail {
@@ -17,19 +22,30 @@ body {
     
 }
 
-#tube-vid {
-    float: left;
+/*#local-vid {
+    float: right;
     top:0%;
     position: absolute;
-    right: 20%;
+    right: 5%;
+    flex: auto;
+    flex-wrap: wrap;
+   
+}
+*/
+#tube-vid {
+    float: left;
+    top:80%;
+    position: absolute;
+    right: 5%;
 
 }
+/*
 .textarea {
     float: left;
     position: relative;
     bottom: 0px;
 }
-
+*/
 
 
 .image-row {
