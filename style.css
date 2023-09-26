@@ -1,5 +1,5 @@
 body {
-    background-color: chocolate;
+    background-color: rgb(236, 126, 47);
 }
 
 .details {
@@ -15,37 +15,22 @@ body {
 
 .login-detail {
     float: inline-end;
-    position: relative
-    flex: auto;
-    flex-wrap: wrap;
-    
-    
-}
-
-/*#local-vid {
-    float: right;
-    top:0%;
-    position: absolute;
-    right: 5%;
-    flex: auto;
-    flex-wrap: wrap;
-   
-}
-*/
-#tube-vid {
-    float: left;
-    top:80%;
-    position: absolute;
-    right: 5%;
-
-}
-/*
-.textarea {
-    float: left;
     position: relative;
-    bottom: 0px;
+    flex: auto;
+    flex-wrap: wrap;
+    text
+      
 }
-*/
+
+
+
+#tube-vid {
+    float: left: ;
+    position: absolute;
+    right: 5%;
+
+}
+
 
 
 .image-row {
@@ -67,8 +52,14 @@ body {
     height: auto;
     width: auto;
     flex-wrap: wrap;
-    margin: auto;
-   
+    margin: auto; 
+    transition: 100ms;
+}
+
+.column:hover {
+    visibility: visible;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    transform: translate3d(10px,0px,20px); 
     
 }
 
@@ -82,13 +73,23 @@ body {
 #social-menu ul{
     list-style: none;
     text-align: center;
-    color: yellow;
+  
   }
 
   #social-menu li{
     display: inline;
     margin: 10px;
+    color: green;
+
   }
 
+  #login-button:hover {
+    color: green;
+    opacity: 0.6;
+  }
+
+  #login-button {
+    margin-top: 10px;
+  }
 
 
