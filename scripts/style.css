@@ -2,8 +2,11 @@ body {
     background-color: rgb(236, 126, 47);
 }
 
-.details {
-    color: white;
+.title-page-directory {
+    color: black;
+    cursor: pointer;
+    
+    
 }
 
 #heading1 {
@@ -14,11 +17,11 @@ body {
 
 
 .login-detail {
-    float: inline-end;
+    /*float: inline-end;
+    */
     position: relative;
-    flex: auto;
+    flex:auto;
     flex-wrap: wrap;
-    text
       
 }
 
