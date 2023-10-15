@@ -27,13 +27,12 @@ body {
 
 
 
+
+
 #tube-vid {
-    float: left: ;
     position: absolute;
-    right: 5%;
-
+    float: left;
 }
-
 
 
 .image-row {
