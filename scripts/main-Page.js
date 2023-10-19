@@ -30,7 +30,7 @@ uniforms.forEach((uniform) => {
     <img class="product-image" src="${uniform.image}" alt="zero" width="100%" ></div>
   <div class="product-name">${uniform.name}</div>
   
-  <div class="product-rating-container">
+    <div class="product-rating-container">
       <img class="product-rating-stars"
         src="/Images/ratings/rating-${uniform.rating.stars * 10}.png">
       <div class="product-rating-count link-primary">
@@ -53,6 +53,9 @@ uniforms.forEach((uniform) => {
         <option value="10">10</option>
       </select>
     </div>
+
+    <div class="product-spacer"></div>
+
   <button class="add-to-cart-button">Add To Cart</button>
   </div>
   

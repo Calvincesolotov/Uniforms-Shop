@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(236, 126, 47);
+  color: rgb(33, 33, 33);
+  font-family: Roboto, Arial;
+  margin: 0;
 }
 
 .uniforms-header {
@@ -76,6 +78,15 @@ body {
     flex-shrink: 0;
     display: flex;
     justify-content: end;
+
+
+  }
+
+  .about-list {
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 
@@ -142,7 +153,7 @@ body {
 
 
 .products-grid {
-  display: grid;
+  display:grid ;
 
   /* - In CSS Grid, 1fr means a column will take up the
        remaining space in the grid.
@@ -236,7 +247,9 @@ body {
 
 .product-name {
   height: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  text-overflow: inherit;
+  
 }
 
 .product-rating-container {
