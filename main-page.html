@@ -7,13 +7,45 @@
     <link rel="stylesheet" href="/scripts/style.css">
 </head>
 <body>
-    <main>
-    <header>
-        <section>
-        <nav class="nav">
-        <h1 style="color: black;">MAMA-IRINE UNIFORMS</h1>
-        <h2 style="color: white;">RONGO</h2>
-  <div class="title-page-directory">
+    
+    
+<div class="uniforms-header">
+    <div uniform-header-left-section>UNIFORMS</div>
+    <a href="main-page.html" class="uniform-header-link"></a>
+
+    <div class="uniform-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+    
+        <button class="search-button">
+            <img class="search-icon" src="/Images/icons/search-icon.png" alt="">
+        </button>
+    </div>
+
+    <div
+    class="uniform-header-right-section">
+
+    <a class="orders-link" href="orders.html">
+        <span class="returns-text">Returns</span>
+
+        <span class="orders-text">$Orders</span>
+    </a>
+
+    <a class="cart-link" href="checkout.html">
+
+        <img src="/Images/icons/cart-icon.png" alt="cart icon">
+        <div class="cart-quantity">0</div>
+        <div>cart</div>
+        </a>
+    </div>
+</div>
+    
+
+
+<br>
+<br>
+    
+<div class="head-part">
+    <div class="about-header">
     <ul>
         <li>ADRESS</li>
         <li>CATEGORY</li>
@@ -22,30 +54,32 @@
     </ul>
 </div>
 
+
 <!--Login form-->
- <div class="login-detail">
+<div class="login detail">
     <form action="#" method="post">
-         <p >LOGIN HERE</p>
      <label for="firstname">ENTER NAME</label><br>
     <input type="text" id="firstname" name="firstname" placeholder="eg.Calvince"><br>
     <label for="id-number">ID NUMBER</label><br>
     <input type="number" name="id-number" placeholder="eg.37xxx"><br>
     <label for="password">PASSWORD</label><br>
     <input type="text" name="password" id="password"><br>
-    <button type="submit" name="login" id="login-button">LOGIN</button><br>
-    <form action="#" method="get">
-        <a href="#">Forgot Password</a>
-    </form><br>
-    OR <br>
-</form>
-<a href="">REGISTER WITH US</a>
-<form action="#" method="post">
-<button  type="submit" name="Logout">Logout</button>
-</form>
+    <span><button type="submit" name="login" id="login-button">LOGIN</button></span>
+    <span><form action="#" method="get">
+        <a href="#">Forgot Password?</a>
+    </form></span>
+    <br>
+    OR 
+    <div></form>
+        <a href="">REGISTER WITH US</a>
+        <form action="#" method="post">
+        <button  type="submit" name="Logout">Logout</button>
+    </form></div>
+
     </div>
-</nav>
-</section>
-</header>
+</div>
+
+
 
 </br>
 
@@ -65,51 +99,161 @@
             <option value="Kanyimach">Kanyimach</option>
         </select>   
     </div></center>
-    <center><video id="local-vid" width="" height="450" controls muted volume="50" preload="auto" src="/audio-video/sample.mp4" type="/Images/sample/mp4">
-        Your browser does not support the video tag.
-      </video></center>
-      <center><audio src="/audio-video/STUCK ON YOU  - LIONEL RICHIE .mp3" type="audio/mp3" controls preload="auto" muted>
-        </audio></center>
-    <!--<iframe id="tube-vid" width="500" height="300" controls src="https://youtu.be/lVOHMU-meVI" frameborder="0">
-        Your browser does not support the video tag.
-    </iframe> -->
+    
 
-    <section class="one">
        <div class="image-row">
 
-        <div class="column">
-            <img src="/Images/0.jpeg" alt="zero" width="100%" >
-            <p class="text-details">School:0 <br>Category:dress <br> price:sh.550 </p>
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/0.jpeg" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
         </div>
 
-        <div class="column">
-            <img src="/Images/1.webp" alt="one" width="100%" >
-            <p class="text-details">School:1<br>Category:dress <br> price:sh.550 </p>
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/10.jpeg" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
         </div>
 
-        <div class="column">
-            <img src="/Images/2.jpg" alt="two" width="100%" >
-            <p class="text-details">School:2<br>Category:dress <br> price:sh.550 </p>
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/1.webp" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
         </div>
 
-        <div class="column">
-            <img src="/Images/3.jpeg" alt="three" width="100%" >
-            <p class="text-details">School:3 <br>Category:dress <br> price:sh.550 </p>
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/22.jpeg" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
         </div>
 
-        <div class="column">
-            <img src="/Images/11.jpeg" alt="eleven" width="100%">
-           <p class="text-details">School:11 <br>Category:Dress <br>price:1000 </p>
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/15.jpeg" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
+        </div>
 
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/0.jpeg" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
+        </div>
+
+        <div class="uniform-sample">
+            <div><img class="image-detail" src="/Images/productImages/0.jpeg" alt="zero" width="100%" ></div>
+            <div>school:</div>
+            <div>price:</div>
+            <div class="uniform-quantity-container">
+                <select>
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            <button class="add-to-cart-button">Add To Cart</button>
         </div>
 
     </div>
         
-</section>
-</main>
-<script src="/javascript.js"></script>
 
-<section class="three">
+<div class="footer-section">
 <footer>
     <div id="social-menu">
         <fieldset>
@@ -132,7 +276,7 @@
     </form>
     </div> </center>
 
-</footer></section>
-<script src="/scripts/javascript.js"></script>
+</footer></div>
+<script src="/scripts/mainPage.js"></script>
 </body>
 </html>
