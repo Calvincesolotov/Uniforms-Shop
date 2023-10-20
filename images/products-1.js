@@ -1,16 +1,160 @@
 /*contains all the products data*/
- const uniforms = [
+ export const uniforms = [
 
   {
   
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-      image: "/Images/productImages/0.jpeg",
+      image: "images/school-uniforms/0.jpeg",
       name: "school",
       rating: {
         stars: 5,
         count:80 
       },
       priceCents: 1200
+  },
+
+  {
+    id:"gc2847e9-5323-403f-b7cf-57fde044a955",
+    image:'images/school-uniforms/10.jpeg',
+    name:"girl-skirt",
+    rating:{
+      stars:5,
+      count:50
+    },
+    priceCents:2060,
+    keywords: [
+      "skirts",
+      "girls",
+      "school"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/1.webp",
+    name: "18 uniform",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/10.jpeg",
+    name:"school children",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/11.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/13.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/15.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/16.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/18.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/17.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  
+  {
+    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    image: "/images/school-uniforms/19.jpeg",
+    rating: {
+      stars: 4.5,
+      count: 175
+    },
+    priceCents: 3499,
+    keywords: [
+      "kitchen",
+      "cookware"
+    ]
   },
 
   {
@@ -89,20 +233,7 @@
       "dining"
     ]
   },
-  {
-    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/products/6-piece-non-stick-baking-set.webp",
-    name: "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
-    rating: {
-      stars: 4.5,
-      count: 175
-    },
-    priceCents: 3499,
-    keywords: [
-      "kitchen",
-      "cookware"
-    ]
-  },
+  
   {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
     image: "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
@@ -670,22 +801,7 @@
       "apparel",
       "mens"
     ]
-  },
-  {
-    id:"gc2847e9-5323-403f-b7cf-57fde044a955",
-    image:'images/products/uniforms/0.jpeg',
-    name:"girl-skirt",
-    rating:{
-      stars:5,
-      count:50
-    },
-    priceCents:2060,
-    keywords: [
-      "skirts",
-      "girls",
-      "school"
-    ]
-  } 
-
+  }
+   
   
 ];

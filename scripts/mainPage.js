@@ -1,23 +1,7 @@
+import { uniforms } from "../images/products-1.js";
 
-
-
-/*
-const uniforms = [
-  {
-  
-    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-      image: "/Images/productImages/0.jpeg",
-      name: "school",
-      rating: {
-        stars: 5,
-        count:80 
-      },
-      priceCents: 1200
-  }];
-  */
 
   let uniformsHTML = '';
-
 
 uniforms.forEach((uniform) => {
 
@@ -28,11 +12,11 @@ uniforms.forEach((uniform) => {
         
   <div class="product-image-container">
     <img class="product-image" src="${uniform.image}" alt="zero" width="100%" ></div>
-  <div class="product-name">${uniform.name}</div>
+  <div class="product-name limit-text-to-2-lines">${uniform.name}</div>
   
     <div class="product-rating-container">
       <img class="product-rating-stars"
-        src="/Images/ratings/rating-${uniform.rating.stars * 10}.png">
+        src="/images/ratings/rating-${uniform.rating.stars * 10}.png">
       <div class="product-rating-count link-primary">
       ${uniform.rating.count}
       </div>

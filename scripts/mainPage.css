@@ -82,14 +82,20 @@ body {
 
   }
 
-  .about-list {
-    color: black;
-    text-align: justify;
+  .list {
+  
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
   }
 
 
+  .ul-list {
+    color: black;
+    text-align: start;
+    
+
+  }
 
   .orders-link {
     color: white;
