@@ -2,6 +2,7 @@ body {
   color: rgb(33, 33, 33);
   font-family: Roboto, Arial;
   margin: 0;
+  font-size: 20px;
 }
 
 .uniforms-header {
@@ -147,6 +148,7 @@ body {
     display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 
   }
 
@@ -296,6 +298,9 @@ body {
     background-color: yellow;
     border-radius: 50px;
     border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 
