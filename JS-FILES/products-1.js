@@ -62,6 +62,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/11.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
@@ -76,6 +77,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/13.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
@@ -90,6 +92,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/15.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
@@ -104,6 +107,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/16.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
@@ -118,6 +122,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/18.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
@@ -132,6 +137,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/17.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
@@ -146,6 +152,7 @@
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
     image: "/images/school-uniforms/19.jpeg",
+    name:'name',
     rating: {
       stars: 4.5,
       count: 175
