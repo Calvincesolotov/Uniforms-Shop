@@ -1,4 +1,4 @@
-import { uniforms } from "./products-1.js";
+import {uniforms} from "./products.js"
 
 
   let uniformsHTML = '';
