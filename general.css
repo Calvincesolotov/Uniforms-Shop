@@ -30,3 +30,10 @@ input, select, button {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.img-video{
+  width: fit-content;
+   height: 200px;
+   display: flex;
+   
+  }
