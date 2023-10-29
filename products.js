@@ -4,7 +4,7 @@
   {
   
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-      image: "/images/school-uniforms/0.jpeg",
+      image: "images/school-uniforms/0.jpeg",
       name: "school",
       rating: {
         stars: 5,
@@ -15,7 +15,7 @@
 
   {
     id:"gc2847e9-5323-403f-b7cf-57fde044a955",
-    image:'/images/school-uniforms/10.jpeg',
+    image:'images/school-uniforms/10.jpeg',
     name:"girl-skirt",
     rating:{
       stars:5,
