@@ -1,4 +1,4 @@
-/*contains all the products data*/
+/*contains all the school-uniforms data*/
  export const uniforms = [
 
   {
@@ -15,7 +15,7 @@
 
   {
     id:"gc2847e9-5323-403f-b7cf-57fde044a955",
-    image:'images/school-uniforms/10.jpeg',
+    image:'images/school-uniforms/1.webp',
     name:"girl-skirt",
     rating:{
       stars:5,
@@ -31,7 +31,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/1.webp",
+    image: "images/school-uniforms/2.jpg",
     name: "18 uniform",
     rating: {
       stars: 4.5,
@@ -46,7 +46,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/10.jpeg",
+    image: "images/school-uniforms/3.jpeg",
     name:"school children",
     rating: {
       stars: 4.5,
@@ -61,7 +61,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/11.jpeg",
+    image: "images/school-uniforms/4.jpeg",
     name:'name',
     rating: {
       stars: 4.5,
@@ -76,7 +76,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/13.jpeg",
+    image: "images/school-uniforms/5.jpeg",
     name:'name',
     rating: {
       stars: 4.5,
@@ -91,7 +91,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/15.jpeg",
+    image: "images/school-uniforms/6.jpeg",
     name:'name',
     rating: {
       stars: 4.5,
@@ -106,7 +106,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/16.jpeg",
+    image: "images/school-uniforms/7.jpeg",
     name:'name',
     rating: {
       stars: 4.5,
@@ -121,7 +121,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/18.jpeg",
+    image: "images/school-uniforms/8.png",
     name:'name',
     rating: {
       stars: 4.5,
@@ -136,7 +136,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/17.jpeg",
+    image: "images/school-uniforms/9.jpeg",
     name:'name',
     rating: {
       stars: 4.5,
@@ -151,7 +151,7 @@
   
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/school-uniforms/19.jpeg",
+    image: "images/school-uniforms/10.jpeg",
     name:'name',
     rating: {
       stars: 4.5,
@@ -166,7 +166,7 @@
 
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    image: "images/school-uniforms/11.jpeg",
     name: "Black and Gray",
     rating: {
       stars: 4.5,
@@ -181,8 +181,8 @@
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/intermediate-composite-basketball.jpg",
-    name: "Intermediate Size Basketball",
+    image: "images/school-uniforms/12.jpeg",
+    name: "12",
     rating: {
       stars: 4,
       count: 127
@@ -195,8 +195,8 @@
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
-    name: "Adults Plain Cotton T-Shirt - 2 Pack",
+    image: "images/school-uniforms/13.jpeg",
+    name: "13",
     rating: {
       stars: 4.5,
       count: 56
@@ -212,8 +212,8 @@
   },
   {
     id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/products/black-2-slot-toaster.jpg",
-    name: "2 Slot Toaster - Black",
+    image: "images/school-uniforms/14.jpeg",
+    name: "14",
     rating: {
       stars: 5,
       count: 2197
@@ -227,7 +227,7 @@
   },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/products/6-piece-white-dinner-plate-set.jpg",
+    image: "images/school-uniforms/15.jpeg",
     name: "6 Piece White Dinner Plate Set",
     rating: {
       stars: 4,
@@ -243,7 +243,7 @@
   
   {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
+    image: "images/school-uniforms/16.jpeg",
     name: "Plain Hooded Fleece Sweatshirt",
     rating: {
       stars: 4.5,
@@ -258,7 +258,7 @@
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/products/luxury-tower-set-6-piece.jpg",
+    image: "images/school-uniforms/17.jpeg",
     name: "Luxury Towel Set - Graphite Gray",
     rating: {
       stars: 4.5,
@@ -275,7 +275,7 @@
   },
   {
     id: "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
-    image: "images/products/liquid-laundry-detergent-plain.jpg",
+    image: "images/school-uniforms/18.jpeg",
     name: "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
     rating: {
       stars: 4.5,
@@ -289,7 +289,7 @@
   },
   {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/products/knit-athletic-sneakers-gray.jpg",
+    image: "images/school-uniforms/19.jpeg",
     name: "Waterproof Knit Athletic Sneakers - Gray",
     rating: {
       stars: 4,
@@ -304,7 +304,7 @@
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/products/women-chiffon-beachwear-coverup-black.jpg",
+    image: "images/school-uniforms/20.jpeg",
     name: "Women's Chiffon Beachwear Cover Up - Black",
     rating: {
       stars: 4.5,
@@ -323,8 +323,8 @@
   },
   {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: "images/products/round-sunglasses-black.jpg",
-    name: "Round Sunglasses",
+    image: "images/school-uniforms/21.jpg",
+    name: "Round Sunglasses 21",
     rating: {
       stars: 4.5,
       count: 30
@@ -337,8 +337,8 @@
   },
   {
     id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/products/women-beach-sandals.jpg",
-    name: "Women's Two Strap Buckle Sandals - Tan",
+    image: "images/school-uniforms/22.jpeg",
+    name: "22",
     rating: {
       stars: 4.5,
       count: 562
@@ -354,7 +354,7 @@
   },
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/products/blackout-curtain-set-beige.webp",
+    image: "images/school-uniforms/23.jpeg",
     name: "Blackout Curtains Set 4-Pack - Beige",
     rating: {
       stars: 4.5,
@@ -369,7 +369,7 @@
   },
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    image: "images/products/men-slim-fit-summer-shorts-gray.jpg",
+    image: "images/school-uniforms/24.jpeg",
     name: "Men's Slim-Fit Summer Shorts",
     rating: {
       stars: 4,
@@ -384,7 +384,7 @@
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/products/electric-glass-and-steel-hot-water-kettle.webp",
+    image: "images/school-uniforms/25.jpeg",
     name: "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
     rating: {
       stars: 5,
@@ -399,7 +399,7 @@
   },
   {
     id: "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
-    image: "images/products/facial-tissue-2-ply-18-boxes.jpg",
+    image: "images/school-uniforms/26.jpeg",
     name: "Ultra Soft Tissue 2-Ply - 18 Box",
     rating: {
       stars: 4,
@@ -416,7 +416,7 @@
   },
   {
     id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
-    image: "images/products/straw-sunhat.webp",
+    image: "images/school-uniforms/27.jpeg",
     name: "Straw Lifeguard Sun Hat",
     rating: {
       stars: 4,
@@ -432,7 +432,7 @@
   },
   {
     id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
-    image: "images/products/sky-flower-stud-earrings.webp",
+    image: "images/school-uniforms/28.jpeg",
     name: "Sterling Silver Sky Flower Stud Earrings",
     rating: {
       stars: 4.5,
@@ -447,7 +447,7 @@
   },
   {
     id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    image: "images/products/women-stretch-popover-hoodie-black.jpg",
+    image: "images/school-uniforms/29.jpeg",
     name: "Women's Stretch Popover Hoodie",
     rating: {
       stars: 4.5,
@@ -466,7 +466,7 @@
   },
   {
     id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
-    image: "images/products/bathroom-rug.jpg",
+    image: "images/school-uniforms/30.jpeg",
     name: "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
     rating: {
       stars: 4.5,
@@ -481,7 +481,7 @@
   },
   {
     id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/products/women-knit-ballet-flat-black.jpg",
+    image: "images/school-uniforms/31.jpeg",
     name: "Women's Knit Ballet Flat",
     rating: {
       stars: 4,
@@ -497,7 +497,7 @@
   },
   {
     id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
-    image: "images/products/men-golf-polo-t-shirt-blue.jpg",
+    image: "images/school-uniforms/32.jpeg",
     name: "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
     rating: {
       stars: 4.5,
@@ -515,7 +515,7 @@
   },
   {
     id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
-    image: "images/products/trash-can-with-foot-pedal-50-liter.jpg",
+    image: "images/school-uniforms/33.jpeg",
     name: "Trash Can with Foot Pedal - Brushed Stainless Steel",
     rating: {
       stars: 4.5,
@@ -531,7 +531,7 @@
   },
   {
     id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/products/duvet-cover-set-blue-twin.jpg",
+    image: "images/school-uniforms/34.jpeg",
     name: "Duvet Cover Set with Zipper Closure",
     rating: {
       stars: 4,
@@ -548,7 +548,7 @@
   },
   {
     id: "d2785924-743d-49b3-8f03-ec258e640503",
-    image: "images/products/women-chunky-beanie-gray.webp",
+    image: "images/school-uniforms/35.jpeg",
     name: "Women's Chunky Cable Beanie - Gray",
     rating: {
       stars: 5,
@@ -566,7 +566,7 @@
   },
   {
     id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    image: "images/products/men-chino-pants-beige.jpg",
+    image: "images/school-uniforms/36.jpeg",
     name: "Men's Classic-fit Pleated Chino Pants",
     rating: {
       stars: 4.5,
@@ -581,7 +581,7 @@
   },
   {
     id: "1c079479-8586-494f-ab53-219325432536",
-    image: "images/products/men-athletic-shoes-green.jpg",
+    image: "images/school-uniforms/37.jpeg",
     name: "Men's Athletic Sneaker",
     rating: {
       stars: 4,
@@ -595,25 +595,10 @@
       "mens"
     ]
   },
-  {
-    id: "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
-    image: "images/products/men-navigator-sunglasses-brown.jpg",
-    name: "Men's Navigator Sunglasses Pilot",
-    rating: {
-      stars: 3.5,
-      count: 42
-    },
-    priceCents: 1690,
-    keywords: [
-      "sunglasses",
-      "glasses",
-      "accessories",
-      "shades"
-    ]
-  },
+
   {
     id: "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
-    image: "images/products/non-stick-cooking-set-15-pieces.webp",
+    image: "images/school-uniforms/38.jpeg",
     name: "Non-Stick Cookware Set, Pots, Pans and Utensils - 15 Pieces",
     rating: {
       stars: 4.5,
@@ -627,7 +612,7 @@
   },
   {
     id: "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
-    image: "images/products/vanity-mirror-silver.jpg",
+    image: "images/school-uniforms/39.jpeg",
     name: "Vanity Mirror with Heavy Base - Chrome",
     rating: {
       stars: 4.5,
@@ -643,7 +628,7 @@
   },
   {
     id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
+    image: "images/school-uniforms/40.jpeg",
     name: "Women's Fleece Jogger Sweatpant",
     rating: {
       stars: 4.5,
@@ -660,7 +645,7 @@
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/products/double-elongated-twist-french-wire-earrings.webp",
+    image: "images/school-uniforms/41.webp",
     name: "Double Oval Twist French Wire Earrings - Gold",
     rating: {
       stars: 4.5,
@@ -670,143 +655,6 @@
     keywords: [
       "accessories",
       "womens"
-    ]
-  },
-  {
-    id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/products/round-airtight-food-storage-containers.jpg",
-    name: "Round Airtight Food Storage Containers - 5 Piece",
-    rating: {
-      stars: 4,
-      count: 126
-    },
-    priceCents: 2899,
-    keywords: [
-      "boxes",
-      "food containers",
-      "kitchen"
-    ]
-  },
-  {
-    id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
-    name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
-    rating: {
-      stars: 4.5,
-      count: 1211
-    },
-    priceCents: 2250,
-    keywords: [
-      "coffeemakers",
-      "kitchen",
-      "appliances"
-    ]
-  },
-  {
-    id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
-    image: "images/products/blackout-curtains-black.jpg",
-    name: "Blackout Curtains Set 42 x 84-Inch - Black, 2 Panels",
-    rating: {
-      stars: 4.5,
-      count: 363
-    },
-    priceCents: 3099,
-    keywords: [
-      "bedroom",
-      "home"
-    ]
-  },
-  {
-    id: "8a53b080-6d40-4a65-ab26-b24ecf700bce",
-    image: "images/products/cotton-bath-towels-teal.webp",
-    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
-    rating: {
-      stars: 4.5,
-      count: 93
-    },
-    priceCents: 2110,
-    keywords: [
-      "bathroom",
-      "home",
-      "towels"
-    ]
-  },
-  {
-    id: "10ed8504-57db-433c-b0a3-fc71a35c88a1",
-    image: "images/products/knit-athletic-sneakers-pink.webp",
-    name: "Waterproof Knit Athletic Sneakers - Pink",
-    rating: {
-      stars: 4,
-      count: 89
-    },
-    priceCents: 3390,
-    keywords: [
-      "shoes",
-      "running shoes",
-      "footwear",
-      "womens"
-    ]
-  },
-  {
-    id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
-    image: "images/products/countertop-blender-64-oz.jpg",
-    name: "Countertop Blender - 64oz, 1400 Watts",
-    rating: {
-      stars: 4,
-      count: 3
-    },
-    priceCents: 10747,
-    keywords: [
-      "food blenders",
-      "kitchen",
-      "appliances"
-    ]
-  },
-  {
-    id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
-    image: "images/products/floral-mixing-bowl-set.jpg",
-    name: "10-Piece Mixing Bowl Set with Lids - Floral",
-    rating: {
-      stars: 5,
-      count: 679
-    },
-    priceCents: 3899,
-    keywords: [
-      "mixing bowls",
-      "baking",
-      "cookware",
-      "kitchen"
-    ]
-  },
-  {
-    id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/kitchen-paper-towels-30-pack.jpg",
-    name: "2-Ply Kitchen Paper Towels - 30 Pack",
-    rating: {
-      stars: 4.5,
-      count: 1045
-    },
-    priceCents: 5799,
-    keywords: [
-      "kitchen",
-      "kitchen towels",
-      "tissues"
-    ]
-  },
-  {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
-    name: "Men's Full-Zip Hooded Fleece Sweatshirt",
-    rating: {
-      stars: 4.5,
-      count: 3157
-    },
-    priceCents: 2400,
-    keywords: [
-      "sweaters",
-      "hoodies",
-      "apparel",
-      "mens"
     ]
   }
    
