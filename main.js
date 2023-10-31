@@ -16,7 +16,7 @@ uniforms.forEach((uniform) => {
   
     <div class="product-rating-container">
       <img class="product-rating-stars"
-        src="/images/ratings/rating-${uniform.rating.stars * 10}.png">
+        src="images/ratings/rating-${uniform.rating.stars * 10}.png">
       <div class="product-rating-count link-primary">
       ${uniform.rating.count}
       </div>

@@ -33,7 +33,13 @@ input, select, button {
 
 .img-video{
   width: fit-content;
-   height: 200px;
+   max-height: 200px;
    display: flex;
    
+  }
+
+  @media (max-width: 450px) {
+    .img-video {
+      grid-template-columns: 1fr;
+    }
   }
